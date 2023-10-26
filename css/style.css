@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.content-block{
+    background-color: lightgray;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container__offers{
+    float: left;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
